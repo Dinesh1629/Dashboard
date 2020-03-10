@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table details</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/jquery.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+<style type="text/css">
+	
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+tr:hover {background-color: #f4fa5a;}
+th{
+	background-color:#d2ccc8;
+}
+
+
+table {
+    counter-reset: tableCount;     
+}
+.counterCell:before {              
+    content: counter(tableCount); 
+    counter-increment: tableCount; 
+}
+.btn{
+        margin:2%;
+    background-color:red;
+    color:white;
+    margin-left:300%;
+    }
+  .btn:hover {
+  background-color:white;
+  color:black;
+  border-color:black;
+</style>
+<body>
+    <div class="col-sm-12">
+        <div class="col-sm-4">
+         <a href="action.html" target="content"><button class=" btn " id="btn1">Exit</button></a>   
+        </div>
+              
+    </div>
+	<table border="1" id="table" cellspacing="5" >
+		<tr>
+            <th>ID</th>
+			<th>Title</th>
+			<th>Message</th>
+			<th>Date</th>
+			<th>image1</th>
+			<th>image2</th>
+			<th>iamge3</th>
+			<th>image4</th>
+			<th>image5</th>
+			<th>image6</th>
+			<th>image7</th>
+			<th>iamge8</th>
+			<th>image9</th>
+			<th>image10</th>
+            <th>Achivers name</th>
+            <th>Department message</th>
+            <th>Department sub_message1</th>
+            <th>Department sub_message2</th>
+            <th>Department sub_message3</th>
+            <th>Department sub_message4</th>
+            <th>Department sub_message5</th>
+            <th>Department hod_name</th>
+            <th>Department hod_address</th>            
+            <th>Name</th>
+            <th>Degree</th>
+            <th>Designation</th>
+            <th>Edit</th>
+            <th>Delete</th>
+  		</tr>
+  		<tr>
+            <td class="counterCell"></td>
+			<td>Title</td>
+			<td>Message</td>
+			<td>Date</td>
+			<td>image1</td>
+			<td>image2</td>
+			<td>iamge3</td>
+			<td>image4</td>
+			<td>image5</td>
+			<td>image6</td>
+			<td>image7</td>
+			<td>iamge8</td>
+			<td>image9</td>
+			<td>image10</td>
+            <td>Achivers name</td>
+            <td>Department message</td>
+            <td>Department sub_message1</td>
+            <td>Department sub_message2</td>
+            <td>Department sub_message3</td>
+            <td>Department sub_message4</td>
+            <td>Department sub_message5</td>
+            <td>Department hod_name</td>
+            <td>Department hod_address</td>
+            <td>Name</td>
+            <td>Degree</td>
+            <td>Designation</td>
+            <td></td>
+            <td></td>
+  		</tr>
+  		<tr>
+            <td class="counterCell"></td>
+			<td>Title</td>
+			<td>Message</td>
+			<td>Date</td>
+			<td>image1</td>
+			<td>image2</td>
+			<td>iamge3</td>
+			<td>image4</td>
+			<td>image5</td>
+			<td>image6</td>
+			<td>image7</td>
+			<td>iamge8</td>
+			<td>image9</td>
+			<td>image10</td>
+            <td>Achivers name</td>
+            <td>Department message</td>
+            <td>Department sub_message1</td>
+            <td>Department sub_message2</td>
+            <td>Department sub_message3</td>
+            <td>Department sub_message4</td>
+            <td>Department sub_message5</td>
+            <td>Department hod_name</td>
+            <td>Department hod_address</td>
+            <td>Name</td>
+            <td>Degree</td>
+            <td>Designation</td>
+            <td></td>
+            <td></td>
+  		</tr>
+  		<tr>
+            <td class="counterCell"></td>
+            <td>Title</td>
+            <td>Message</td>
+            <td>Date</td>
+            <td>image1</td>
+            <td>image2</td>
+            <td>iamge3</td>
+            <td>image4</td>
+            <td>image5</td>
+            <td>image6</td>
+            <td>image7</td>
+            <td>iamge8</td>
+            <td>image9</td>
+            <td>image10</td>
+            <td>Achivers name</td>
+            <td>Department message</td>
+            <td>Department sub_message1</td>
+            <td>Department sub_message2</td>
+            <td>Department sub_message3</td>
+            <td>Department sub_message4</td>
+            <td>Department sub_message5</td>
+            <td>Department hod_name</td>
+            <td>Department hod_address</td>
+            <td>Name</td>
+            <td>Degree</td>
+            <td>Designation</td>
+            <td></td>
+            <td></td>
+        </tr>
+  		<tr>
+            <td class="counterCell"></td>
+            <td>Title</td>
+            <td>Message</td>
+            <td>Date</td>
+            <td>image1</td>
+            <td>image2</td>
+            <td>iamge3</td>
+            <td>image4</td>
+            <td>image5</td>
+            <td>image6</td>
+            <td>image7</td>
+            <td>iamge8</td>
+            <td>image9</td>
+            <td>image10</td>
+            <td>Achivers name</td>
+            <td>Department message</td>
+            <td>Department sub_message1</td>
+            <td>Department sub_message2</td>
+            <td>Department sub_message3</td>
+            <td>Department sub_message4</td>
+            <td>Department sub_message5</td>
+            <td>Department hod_name</td>
+            <td>Department hod_address</td>
+            <td>Name</td>
+            <td>Degree</td>
+            <td>Designation</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="counterCell"></td>
+            <td>Title</td>
+            <td>Message</td>
+            <td>Date</td>
+            <td>image1</td>
+            <td>image2</td>
+            <td>iamge3</td>
+            <td>image4</td>
+            <td>image5</td>
+            <td>image6</td>
+            <td>image7</td>
+            <td>iamge8</td>
+            <td>image9</td>
+            <td>image10</td>
+            <td>Achivers name</td>
+            <td>Department message</td>
+            <td>Department sub_message1</td>
+            <td>Department sub_message2</td>
+            <td>Department sub_message3</td>
+            <td>Department sub_message4</td>
+            <td>Department sub_message5</td>
+            <td>Department hod_name</td>
+            <td>Department hod_address</td>
+            <td>Name</td>
+            <td>Degree</td>
+            <td>Designation</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="counterCell"></td>
+            <td>Title</td>
+            <td>Message</td>
+            <td>Date</td>
+            <td>image1</td>
+            <td>image2</td>
+            <td>iamge3</td>
+            <td>image4</td>
+            <td>image5</td>
+            <td>image6</td>
+            <td>image7</td>
+            <td>iamge8</td>
+            <td>image9</td>
+            <td>image10</td>
+            <td>Achivers name</td>
+            <td>Department message</td>
+            <td>Department sub_message1</td>
+            <td>Department sub_message2</td>
+            <td>Department sub_message3</td>
+            <td>Department sub_message4</td>
+            <td>Department sub_message5</td>
+            <td>Department hod_name</td>
+            <td>Department hod_address</td>
+            <td>Name</td>
+            <td>Degree</td>
+            <td>Designation</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+           <td class="counterCell"></td>
+            <td>Title</td>
+            <td>Message</td>
+            <td>Date</td>
+            <td>image1</td>
+            <td>image2</td>
+            <td>iamge3</td>
+            <td>image4</td>
+            <td>image5</td>
+            <td>image6</td>
+            <td>image7</td>
+            <td>iamge8</td>
+            <td>image9</td>
+            <td>image10</td>
+            <td>Achivers name</td>
+            <td>Department message</td>
+            <td>Department sub_message1</td>
+            <td>Department sub_message2</td>
+            <td>Department sub_message3</td>
+            <td>Department sub_message4</td>
+            <td>Department sub_message5</td>
+            <td>Department hod_name</td>
+            <td>Department hod_address</td>
+            <td>Name</td>
+            <td>Degree</td>
+            <td>Designation</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="counterCell"></td>
+            <td>Title</td>
+            <td>Message</td>
+            <td>Date</td>
+            <td>image1</td>
+            <td>image2</td>
+            <td>iamge3</td>
+            <td>image4</td>
+            <td>image5</td>
+            <td>image6</td>
+            <td>image7</td>
+            <td>iamge8</td>
+            <td>image9</td>
+            <td>image10</td>
+            <td>Achivers name</td>
+            <td>Department message</td>
+            <td>Department sub_message1</td>
+            <td>Department sub_message2</td>
+            <td>Department sub_message3</td>
+            <td>Department sub_message4</td>
+            <td>Department sub_message5</td>
+            <td>Department hod_name</td>
+            <td>Department hod_address</td>
+            <td>Name</td>
+            <td>Degree</td>
+            <td>Designation</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="counterCell"></td>
+            <td>Title</td>
+            <td>Message</td>
+            <td>Date</td>
+            <td>image1</td>
+            <td>image2</td>
+            <td>iamge3</td>
+            <td>image4</td>
+            <td>image5</td>
+            <td>image6</td>
+            <td>image7</td>
+            <td>iamge8</td>
+            <td>image9</td>
+            <td>image10</td>
+            <td>Achivers name</td>
+            <td>Department message</td>
+            <td>Department sub_message1</td>
+            <td>Department sub_message2</td>
+            <td>Department sub_message3</td>
+            <td>Department sub_message4</td>
+            <td>Department sub_message5</td>
+            <td>Department hod_name</td>
+            <td>Department hod_address</td>
+            <td>Name</td>
+            <td>Degree</td>
+            <td>Designation</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+
+	</table>
+
+</body>
+</html>

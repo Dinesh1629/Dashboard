@@ -1,0 +1,81 @@
+<?php
+
+function side(){
+?>
+
+<html>
+<head>
+<title>HTML Frames Example - Menu 2</title>
+<style type="text/css">
+#body {
+	font-family:verdana,arial;
+	font-size:10pt;
+	height:500px;
+
+	}
+  #h3{
+    color:black;
+  }
+	.btn{
+		margin:10%;
+    background-color:#eae8e6;
+    color:#b0aeae;
+	}
+  .btn:hover {
+  background-color:white;
+  color:black;
+  border-color:black;
+  /*animation: shake 0.5s; 
+  animation-iteration-count: infinite; */
+}
+	#dropdownMenuButton,#btn1,#btn2,#btn3,#btn4
+	{
+		width:80%;
+	}
+
+
+}
+</style>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/jquery.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+</head>
+<body id="body">
+<center><h3 id="h3">DashBoard</h3></center>
+
+<div class="dropdown" id="div">
+  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Facility
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+   <li> <a class="dropdown-item" href="action.html" target="content">Lab</a></li>
+    <li><a class="dropdown-item" href="action.html" target="content">R&D</a></li>
+    <li><a class="dropdown-item" href="action.html" target="content">Tieups</a></li>
+  </div>
+</div>
+
+<div id="div">
+<a href="action.html" target="content"><button class=" btn " id="btn1">Faculity</button></a>
+</div>
+
+<div id="div">
+<a href="action.html" target="content"><button class=" btn " id="btn2">DepartmentDetails</button></a>
+</div>
+
+<div id="div">
+<a href="action.html" target="content"><button class=" btn " id="btn3">News&Events</button></a>
+</div>
+
+<div id="div">
+<a href="action.html" target="content"><button class=" btn " id="btn4">Achivements</button></a>
+</div>
+
+
+</body>
+</html>
+
+<?php
+}
+?>
+
+
